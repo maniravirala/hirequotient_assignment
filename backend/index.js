@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
   res.send("Server is active");
 });
 
-const PORT = 3000;
+const PORT = 8000;
 const server = app.listen(PORT, () => {
   dbConnection();
   logger.info(`Server is active on port ${PORT}`);
